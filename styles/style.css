@@ -1,0 +1,88 @@
+.container{
+	border: 1px solid gray;
+	width: 400px;	
+	margin: auto;
+	height: 400px;
+	border-radius: 10px;
+}
+.container .head{
+	margin: 0px;
+	padding: 0px;
+}
+
+.backBtn, .nextBtn{
+	display: inline-block;
+	height: 35px;
+	width: 35px;	
+	font-size: 2em;
+	text-align: center;
+	
+}
+.nextBtn{	
+	float: right;
+	margin-top: 10px;
+}
+.month-name{
+	text-align: center;
+	margin-left: 5px;
+	display: inline-block;
+	width: 150px;
+	font-size: 1.8em;
+	display: inline-block;
+}
+.year-name{
+	margin-left: 10px;
+	display: inline-block;
+	font-size: 2em;
+	color: gray;
+}
+.date{
+	display: inline-block;
+	font-size: 0.8em;
+	margin: 2px;
+}
+.scale{	
+	box-sizing: content-box;
+	height: 40px;
+	width: 100%;
+	padding: 0px;
+}
+.scale li{
+	width: 40px;
+	box-sizing: content-box;
+	list-style: none;
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 5px;
+	text-align: center;
+}
+.dates{
+	padding-left: 39px;
+	text-align: left
+}
+.dates div{		
+	box-sizing: border-box;
+	border-radius: 15px;
+	text-align: center;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	padding-top: 3px;
+	font-size: 1.2em;
+	cursor: pointer;
+}
+
+
+
+.dim{
+	color : #BABABA;
+}
+.current{
+	background-color: darkblue;
+	border-radius: 0px !important;
+	box-shadow: 1px 1px 5px black;	
+	color: white;	
+}
